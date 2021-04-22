@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Open Sans";
+            color: #fff;
+        }
+        .nav-bar{
+		display: flex;
+		padding:40px 60px;
+		}
+		.nav-links{
+		flex:1;
+		}
+		.nav-links ul{
+		margin-left: 50px;
+		display: inline;
+
+		}
+		.nav-links ul li{
+			list-style: none;
+			font-size: 2em;
+			display: inline-block;
+			padding: 8px 25px;
+		}
+		.nav-links ul a{
+			 color: #fff;
+			 text-decoration: none;
+			 font-size: 13px;
+		}
+		.nav-links ul li::after{
+			content: '';
+			width: 0;
+			height:2px;
+			background: #9c88ff;
+			display: block;
+			margin:auto;
+			transition: .5s;
+		}
+		.nav-links ul li:hover::after{
+			width: 100%;
+
+		}
+        .banner-title {
+        margin: 80px 130px;
+        color: white;
+        
+            
+
+        }
+        .banner-title h1{
+        font-size: 64px;
+        margin-bottom: 30px;
+
+        }
+        .banner-title h1 span{
+            color:#9c88ff;
+
+        }
+        section{
+            background: url("./bg2.jpg");
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+        }
+        
+    </style>
+</head>
+<body bgcolor="#6c87d6">
+
+
+    <section>
+    	<div class="nav-bar">
+				
+			<div class="nav-links">
+				<ul>
+					<a href="index.html"><li>HOME</li></a>
+					<a href="Bookmarks.html"><li>BOOKMARK</li></a>
+					<a href="login.html"><li>LOGIN</li></a>
+					
+
+
+				</ul>
+			</div>
+				
+		</div>
+
+        <div class="banner-title">
+                <h1>We <span> Save your<br></span>websites.
+                So, <span>you </span> won't have to<br> <span>remember it</span> </h1>
+                
+                
+            
+
+
+</div>
+
+       
+    </section>
+</body>
+</html>
